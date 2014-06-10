@@ -1,0 +1,27 @@
+sysshep(1)
+===================================
+## DESCRIPTION
+
+`sysshep` a console application for system shepherd
+
+## USAGE
+
+`sysshep` <[-hv]> <commands...>
+
+## OPTIONS
+
+  * `-h`, `--help`, `help`:
+    Displays usage information.
+
+  * `-v`, `--version`, `version`:
+    Displays version.
+
+## EXAMPLES
+
+## BUGS
+
+<http://github.com/glucero/sysshep/issues>
+
+## AUTHOR
+
+<http://github.com/glucero>
