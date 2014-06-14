@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alerts>
+  <alert>
+    <d_key_path><![CDATA[App|Test|Metric|B]]></d_key_path>
+    <client><![CDATA[ClientB]]></client>
+    <hostname><![CDATA[host-b]]></hostname>
+    <status><![CDATA[1]]></status>
+    <alertmsg><![CDATA[This metric is warning]]></alertmsg>
+    <alert_time><![CDATA[1386047235]]></alert_time>
+    <alert_request_id><![CDATA[ClientB:host-b:App|Test|Metric|B:1386047235]]></alert_request_id>
+    <metric><![CDATA[4.56]]></metric>
+    <interval><![CDATA[60]]></interval>
+  </alert>
+  <alert>
+    <d_key_path><![CDATA[App|Test|Metric|C]]></d_key_path>
+    <client><![CDATA[ClientC]]></client>
+    <hostname><![CDATA[host-c]]></hostname>
+    <status><![CDATA[2]]></status>
+    <alertmsg><![CDATA[This metric is critical]]></alertmsg>
+    <alert_time><![CDATA[1386047235]]></alert_time>
+    <alert_request_id><![CDATA[ClientC:host-c:App|Test|Metric|C:1386047235]]></alert_request_id>
+    <metric><![CDATA[7.89]]></metric>
+    <interval><![CDATA[60]]></interval>
+  </alert>
+</alerts>

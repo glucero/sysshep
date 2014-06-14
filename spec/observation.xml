@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <agentid>https://core.ssbe.localhost/agents/1</agentid>
+  <client name='ClientA'>
+    <host name='host-a' time='1386047252'>
+      <ma dk='App|Test|Metric|A' time='1386047235'>
+        <m><![CDATA[1.23]]></m>
+        <s><![CDATA[0]]></s>
+      </ma>
+    </host>
+  </client>
+  <client name='ClientB'>
+    <host name='host-b' time='1386047252'>
+      <ma dk='App|Test|Metric|B' time='1386047235'>
+        <m><![CDATA[4.56]]></m>
+        <s><![CDATA[1]]></s>
+      </ma>
+    </host>
+  </client>
+  <client name='ClientC'>
+    <host name='host-c' time='1386047252'>
+      <ma dk='App|Test|Metric|C' time='1386047235'>
+        <m><![CDATA[7.89]]></m>
+        <s><![CDATA[2]]></s>
+      </ma>
+    </host>
+  </client>
+</import>
