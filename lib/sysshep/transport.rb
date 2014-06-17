@@ -15,9 +15,5 @@ module SysShep::Transport
 
   ServiceMain = -> fqdn { "https://core.#{fqdn}/service_descriptors" }
 
-  extend Forwardable
-
-  def_delegators :@credentials, :username, :password, :portal, :agent
-
 end
 
