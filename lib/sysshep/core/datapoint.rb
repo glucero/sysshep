@@ -1,4 +1,4 @@
-class SysShep::Datapoint
+class Datapoint
 
   attr_accessor :client,
                 :host,
