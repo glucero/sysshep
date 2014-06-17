@@ -1,6 +1,6 @@
-module SysShep::Document
+module SysShep::Validatation
 
-  class InvalidDocument < StandardError; end
+  class InvalidXML < StandardError; end
 
   module ValidDatapoint
 

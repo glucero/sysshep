@@ -41,6 +41,7 @@ module SysShep
   require_relative 'sysshep/transport/post'
 
   require_relative 'sysshep/model'
+  require_relative 'sysshep/validation'
 
   require_relative 'sysshep/core/account'
   require_relative 'sysshep/core/address'
@@ -66,12 +67,11 @@ module SysShep
   require_relative 'sysshep/alarm/message'
   require_relative 'sysshep/alarm/notification_result'
 
-  require_relative 'sysshep/document'
-  require_relative 'sysshep/document/xml'
-  require_relative 'sysshep/document/xml_node'
-  require_relative 'sysshep/document/generic'
-  require_relative 'sysshep/document/observation'
-  require_relative 'sysshep/document/escalation'
+  require_relative 'sysshep/xml'
+  require_relative 'sysshep/xml/node'
+  require_relative 'sysshep/xml/generic'
+  require_relative 'sysshep/xml/observation'
+  require_relative 'sysshep/xml/escalation'
 
   require_relative 'sysshep/version'
 

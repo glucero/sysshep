@@ -1,4 +1,4 @@
-module SysShep::Document
+module SysShep::XML
   class Observation < Generic
 
     def json

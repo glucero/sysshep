@@ -1,4 +1,4 @@
-module SysShep::Document
+module SysShep
   class XML
 
     VERSION  = '1.0'.freeze
@@ -28,7 +28,7 @@ module SysShep::Document
     end
 
     def method_missing(name)
-      element = XMLNode.new(name.to_s)
+      element = Node.new(name.to_s)
       @nodes << element
       yield element if block_given?
     end
